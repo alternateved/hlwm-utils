@@ -1,0 +1,17 @@
+#!/bin/env bash
+# Frames control menu
+
+declare options=("enable
+disable")
+
+choice=$(echo -e "${options[@]}" | dmenu -i -p ' Main menu: ')
+
+case "$choice" in
+enable)
+	choice="$HOME/.hlwm-utils/menu/frames/enable"
+	;;
+disable)
+	choice="$HOME/.hlwm-utils/menu/frames/disable"
+	;;
+esac
+sh $choice

@@ -17,5 +17,4 @@ herbstclient chain \
     . split bottom \
     . focus down \
     . focus left \
-    . focus left 
-
+    . focus left

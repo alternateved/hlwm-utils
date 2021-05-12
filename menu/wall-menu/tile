@@ -1,7 +1,7 @@
-#!/bin/sh -e
+#!/bin/env bash
 
 cd ~/wallpapers
 
 img=$(printf '%s\n' * | dmenu -p ' Tile: ' -b -sf '#201e1a' -sb '#928374' -nb '#201e1a' -nf '#928374' -fn 'Cascadia Mono:pixelsize=14')
 
-[ -f "$img" ] && feh --bg-tile "$img" && notify-send "Style: tile" && notify-send "File: $img"
+[ -f "$img" ] ; feh --bg-tile "$img" ; notify-send "Style: tile" ; notify-send "File: $img"
