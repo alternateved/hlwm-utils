@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/env bash
 # dwindle layout
 
 herbstclient chain \

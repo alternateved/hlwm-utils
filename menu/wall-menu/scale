@@ -2,6 +2,6 @@
 
 cd ~/Wallpapers
 
-img=$(printf '%s\n' * | dmenu -p ' Scale: ' )
+img=$(printf '%s\n' * | dmenu -p ' Scale: ')
 
 [ -f "$img" ] ; feh --bg-scale "$img" ; notify-send "Style: scale" ; notify-send "File: $img"
