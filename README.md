@@ -1,4 +1,4 @@
-# Hlwm-utils - small utilities and workflow improvements for Herbstluffwm users
+# hlwm-utils
 
 ### Dependencies:
 
@@ -9,12 +9,12 @@
 
 ### Instalation:
 
-- Clone repo into `~/.hlwm-utils`.
-- Change`~/Wallpapers` in `~/.hlwm/utiks/menu/wall-menu` to direcotry with your wallpapers
+- clone repo: `git clone https://github.com/HeavyRain266/hlwm-utils --depth=1 ~/.hlwm-utils`.
+- in `$HOME/hlwm-utils/wall-menu` change `~/Wallpapers` to path to your wallpapers directory.
 
 ```sh
-# create keybind for menu
-hc keybind $Mod-control-p	sh ~/.hlwm-utils/menu/open_menu
+# # create keybind for menu
+hc keybind $Mod-control-p    sh $HOME/.hlwm-utils/menu/open_menu
 ```
 
 ## Planed features and preview:

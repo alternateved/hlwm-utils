@@ -1,5 +1,5 @@
 #!/bin/env bash
-# Enable frames
+# enable frames
 
 herbstclient chain \
     . set frame_border_width 3 \

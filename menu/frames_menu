@@ -1,5 +1,5 @@
 #!/bin/env bash
-# Frames control menu
+# frames control menu
 
 declare options=("enable
 disable")

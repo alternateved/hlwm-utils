@@ -1,4 +1,5 @@
 #!/bin/env bash
+# remove all frames created by layout scrips
 
 herbstclient chain \
     . remove \
