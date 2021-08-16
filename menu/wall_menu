@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 # wallpapers menu
 
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+source "$SCRIPT_DIR/config"
+
 declare options=("Fill
 Scale
 Tile")
 
-choice=$(echo -e "${options[@]}" | dmenu -i -p ' Style: ')
+choice=$(echo -e "${options[@]}" | ${DMENU} -i -p ' Style: ')
 
 case "$choice" in
 Fill)
