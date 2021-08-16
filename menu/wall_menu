@@ -12,13 +12,13 @@ choice=$(echo -e "${options[@]}" | ${DMENU} -i -p ' Style: ')
 
 case "$choice" in
 Fill)
-    choice="$HOME/.hlwm-utils/hlwm-menu/wall-menu/fill"
+    choice="$HOME/.hlwm-utils/menu/wall-menu/fill"
     ;;
 Scale)
-    choice="$HOME/.hlwm-utils/hlwm-menu/wall-menu/scale"
+    choice="$HOME/.hlwm-utils/menu/wall-menu/scale"
     ;;
 Tile)
-    choice="$HOME/.hlwm-utils/hlwm-menu/wall-menu/tile"
+    choice="$HOME/.hlwm-utils/menu/wall-menu/tile"
     ;;
 esac
 sh $choice

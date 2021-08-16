@@ -15,13 +15,13 @@ choice=$(echo -e "${options[@]}" | ${DMENU} -i -p ' hlwm-utils: ')
 
 case "$choice" in
 layouts)
-	choice="$HOME/.hlwm-utils/hlwm-menu/layouts-menu"
+	choice="$HOME/.hlwm-utils/menu/layouts_menu"
 	;;
 frames-control)
-	choice="$HOME/.hlwm-utils/hlwm-menu/frames-control"
+	choice="$HOME/.hlwm-utils/menu/frames_menu"
 	;;
 wall-menu)
-	choice="$HOME/.hlwm-utils/hlwm-menu/wall-menu"
+	choice="$HOME/.hlwm-utils/menu/wall_menu"
 	;;
 EXIT)
 	exit 1
