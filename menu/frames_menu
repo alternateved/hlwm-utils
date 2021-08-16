@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # frames control menu
 
 declare options=("enable

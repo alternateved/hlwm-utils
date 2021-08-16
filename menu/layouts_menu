@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 # hlwm-utils main manu
 
 declare options=("centered-master
